@@ -1,24 +1,16 @@
-# Lumen PHP Framework
+NAMA    : MOH. IZZA AULADINA L.
+NIM     : 185150707111009
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
-
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+PENJELASAN
+1. Membuat instalasi projek lumen bernama bookapp
+2. Membuat database di phpmyadmin dengan nama "bookapp_lumen"
+3. Mengubah file.env pada projek bookapp
+4. Mengaktifkan fitur facades dan eloquent
+5. Membuat migration
+6. Membuat seeder dengan mengubah file DatabaseSeeder.php pada direktori database\seeders
+7. Membuat model pada direktori app\Models
+8. Memanggil data melalui model
+9. Menjalankan aplikasi 
+10. Menambahkan route /books/{id} dengan menampilkan detail buku sesuai id
+11. Memberikan pesan “Book Not Found” dan status code 404 jika id buku tidak ditemukan
+12. Membuat Repository Github baru dengan nama  bookapp
